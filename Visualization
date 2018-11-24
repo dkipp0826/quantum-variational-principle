@@ -3,6 +3,9 @@ Visualization Fn
 import numpy as np
 import matplotlib as plt
 
+from radial-basis-network import *
+from hamiltonian-2d-harm-oss import *
+
 
 nx = np.linspace(0,40,10000)
 ny = np.linspace(0,40,10000)
