@@ -15,7 +15,7 @@ z = 0*x
 
 for i in range(len(nx)):
     for j in range(len(ny)):
-        z[i,j] = network.psi(state)[i,j]
+        z[i,j] = network.psi(nx[i,j],ny[i,j])
         
         
 fig = plt.figure()
